@@ -1,0 +1,38 @@
+Windows->
+dir - comando que listas as pastas dentro de um usuario ou arquivo
+cd (determinada pasta) - abre a pasta que deseja
+cd .. - retroceder/voltar uma pasta ou um nivel
+cls - limpar tela
+cd W+TAB -> ja vai reconhecer a pasta que deseja . ex Windows
+mkdir - > cria uma pasta nova
+mv "arquivo ou pasta" ./pasta/ -> move um arquivo ou pasta para outro local
+echo hello > hello.txt -> cria um novo arquivo txt dentro de uma determinada pasta
+del+(arquivo dentro da pasta ou a pasta) - deleta os arquivos dentro da pasta
+rmdir+(determinada pasta) /S /Q -> deleta toda a pasta 
+pwd -> te mostra aonde você esta
+ls -a -> pasta oculta git
+git config --list -> lista todas as configurações feitas
+git config --global --unset user.email -> retira email configurado
+git config --global --unset user.name -> retira o nome do usuario
+"SETA DO TECLADO PARA CIMA E UM ATALHO PARA COMANDOS"
+
+git remote add origin -> link repositorio
+git remote -v -> mostra lista de repositorios cadastrados 
+git push origin master -> empurra o repositorio local para repositorio remoto
+git push origin main -> envia todos os commits local para remoto
+
+
+
+
+
+linux->
+ls - comando que listas as pastas dentro de um usuario ou arquivo
+cd.. - retroceder/voltar uma pasta
+clear - limpar tela // CTRL + L tbm faz
+mkdir - > cria uma pasta nova
+echo hello > hello.txt -> cria um novo arquivo txt dentro de uma determinada pasta
+rm -rf -> deleta toda a pasta
+
+
+
+

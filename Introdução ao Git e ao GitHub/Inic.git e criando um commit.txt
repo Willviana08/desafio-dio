@@ -1,0 +1,17 @@
+configuração inicial:
+
+git config --global user.email "email"
+git config --global user.name nome ou apelido
+
+
+commit:
+
+git add * -> adiciona todos os arquivos novos
+git add . -> adiciona todos os arquivos novos
+git add -A -> adiciona todos os arquivos novos
+git commit -m "commit inicial"
+git status -> status 
+
+git add "arquivo ou pasta" "pasta"/ -> Atualizou o status
+git commit -m "nova atualização do commit, no caso exemplo, moveu receita para pasta receita **antes o arquivo estava na pasta livro-receitas"
+

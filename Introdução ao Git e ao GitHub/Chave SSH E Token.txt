@@ -1,0 +1,17 @@
+Chave ssh git e github:
+
+ssh-keygen -t ed25519 -C Email usado github... -> gerando a chave e pedindo a senha
+localizar:
+cd/c/Users/wilke/.ssh/ -> local da chave
+ls -> mostrar a chave --- id_ed25519.pub
+
+cat id_ed25519.pub _> rodando isso mostra a chave publica. e a chave que coloca no github
+
+
+eval $(ssh-agent -s) -> estartando um projeto.
+ssh-add id_ed25519 -> comando para passar chave privada, obs: nesse caso o local atual e a pasta da chave. logo apos pedira a senha
+
+Qualquer projeto seja publico ou privado ira pedir senha, talvez no publico não.
+
+
+Senha> Pokemon 25
